@@ -324,6 +324,31 @@ footer {
     text-align: center;
 }
 
+/* Alumni Badge */
+.alumni-badge {
+    display: inline-block;
+    background: rgba(26, 86, 219, 0.1);
+    border: 2px solid #1a56db;
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin: 15px 0;
+    font-weight: 600;
+    color: #1a56db;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.alumni-badge:hover {
+    background: #1a56db;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(26, 86, 219, 0.2);
+}
+
+.alumni-badge span {
+    display: inline-block;
+}
+
 /* Animations */
 @keyframes fadeInLeft {
     from {
