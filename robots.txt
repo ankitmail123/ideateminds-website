@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ideateminds.com/sitemap.xml
